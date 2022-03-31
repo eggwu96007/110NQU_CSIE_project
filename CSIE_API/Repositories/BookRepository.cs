@@ -46,5 +46,29 @@ namespace BookAPI.Repositories
             _context.Entry(book).State = EntityState.Modified;
             await _context.SaveChangesAsync();
         }
+
+       
+
+        public async Task<IEnumerable<Book>> Search(string name,string book)
+        {
+            IQueryable<Book> query =_context.Books;
+
+            
+            if (name == "state1")
+            {
+                query = query.Where(e => e.State1.Contains(book));
+            }
+
+            if (name == "state2")
+            {
+                query = query.Where(e => e.State2.Contains(book));
+            }
+
+            if (name == "state3")
+            {
+                query = query.Where(e => e.State3.Contains(book));
+            }
+            return await query.ToListAsync();
+        }
     }
 }

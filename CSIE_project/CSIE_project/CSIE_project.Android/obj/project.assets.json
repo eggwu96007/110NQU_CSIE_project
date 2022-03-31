@@ -2840,11 +2840,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eggwu\\Desktop\\CSIE_project\\CSIE_project\\CSIE_project.Android\\CSIE_project.Android.csproj",
+      "projectUniqueName": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project.Android\\CSIE_project.Android.csproj",
       "projectName": "CSIE_project.Android",
-      "projectPath": "C:\\Users\\eggwu\\Desktop\\CSIE_project\\CSIE_project\\CSIE_project.Android\\CSIE_project.Android.csproj",
+      "projectPath": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project.Android\\CSIE_project.Android.csproj",
       "packagesPath": "C:\\Users\\eggwu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eggwu\\Desktop\\CSIE_project\\CSIE_project\\CSIE_project.Android\\obj\\",
+      "outputPath": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2866,8 +2866,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\eggwu\\Desktop\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj": {
-              "projectPath": "C:\\Users\\eggwu\\Desktop\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj"
+            "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj": {
+              "projectPath": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj"
             }
           }
         }

@@ -11,6 +11,10 @@ namespace BookAPI.Models
         public string Name { get; set; }
         public int Quantity { get; set; }
         public double Price { get; set; }
-        public bool State { get; set; }
+        public string State1 { get; set; }
+
+        public string State2 { get; set; }
+
+        public string State3 { get; set; }
     }
 }

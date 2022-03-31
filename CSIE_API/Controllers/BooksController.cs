@@ -17,7 +17,7 @@ namespace BookAPI.Controllers
 
         public BooksController(IBookRepository bookRepository)
         {
-            _bookRepository = bookRepository;
+           this._bookRepository = bookRepository;
         }
 
         [HttpGet]
@@ -30,6 +30,25 @@ namespace BookAPI.Controllers
         public async Task<ActionResult<Book>> GetBooks(int id)
         {
             return await _bookRepository.Get(id);
+        }
+
+       [HttpGet("search/{name}/{book}")]
+        public async Task<ActionResult<IEnumerable<Book>>> Search(string name, string book)
+        {
+            try
+            {
+                var result = await _bookRepository.Search(name,book);
+                if (result.Any())
+                {
+                    return Ok(result);
+                }
+                return NotFound();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
         [HttpPost]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vc+o8ZDF8IJ35gh5TZfwB9aotHOdwWHXhjGwcUplxHWryL1xkb6CRgEdw3uGTTB/3HbjZr9C+eQdykELfv1Gcg==",
+  "dgSpecHash": "sW9TvS407p+h0h5E1CQzVFXekOdoAPyalkq/4dHHfx0MOJpE1t/PXax313CAHBZnd9IA40JiuZNAj9VDw2ptpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eggwu\\Desktop\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\CSIE_project.iOS.csproj",
+  "projectFilePath": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\CSIE_project.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eggwu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\eggwu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",

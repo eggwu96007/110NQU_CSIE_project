@@ -2212,11 +2212,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eggwu\\Desktop\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\CSIE_project.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\CSIE_project.iOS.csproj",
       "projectName": "CSIE_project.iOS",
-      "projectPath": "C:\\Users\\eggwu\\Desktop\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\CSIE_project.iOS.csproj",
+      "projectPath": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\CSIE_project.iOS.csproj",
       "packagesPath": "C:\\Users\\eggwu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eggwu\\Desktop\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\obj\\",
+      "outputPath": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2238,8 +2238,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\eggwu\\Desktop\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj": {
-              "projectPath": "C:\\Users\\eggwu\\Desktop\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj"
+            "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj": {
+              "projectPath": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj"
             }
           }
         }
