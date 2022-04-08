@@ -13,11 +13,15 @@ namespace XamWebApiClient.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AddBook : ContentPage
     {
+        
         public AddBook()
         {
             InitializeComponent();
 
             BindingContext = Startup.Resolve<AddBookViewModel>();
+
         }
+
+       
     }
 }

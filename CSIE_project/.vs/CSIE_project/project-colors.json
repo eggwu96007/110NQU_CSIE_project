@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b4c80d76-2337-4bf5-9c3f-20d8a3d11886": {
+      "ProjectGuid": "b4c80d76-2337-4bf5-9c3f-20d8a3d11886",
+      "DisplayName": "CSIE_project",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "其他檔案",
+      "ColorIndex": -1
+    },
+    "bb35899c-b106-4c8a-a12d-63712306ff0c": {
+      "ProjectGuid": "bb35899c-b106-4c8a-a12d-63712306ff0c",
+      "DisplayName": "CSIE_project.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

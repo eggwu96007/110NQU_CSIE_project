@@ -26,6 +26,7 @@ namespace XamWebApiClient.ViewModels
 
             AddNewBookCommand = new Command(async () => await GoToAddbookView());
 
+            //如果binding datacommand會跑來這裡接去dataview
             DataCommand = new Command(async () => await GoToDataView());
         }
 
@@ -39,8 +40,11 @@ namespace XamWebApiClient.ViewModels
         private async Task GoToAddbookView() 
             => await Shell.Current.GoToAsync(nameof(AddBook));
 
+        //如果command改這裡就到其他地方
         private async Task GoToDataView()
             => await Shell.Current.GoToAsync(nameof(Data));
+
+       
 
         public async void PopulateBooks()
         {
@@ -95,6 +99,7 @@ namespace XamWebApiClient.ViewModels
         public ICommand DeleteBookCommand { get; }
 
         public ICommand DataCommand { get; }
+
 
         public ICommand AddNewBookCommand { get; }
     }

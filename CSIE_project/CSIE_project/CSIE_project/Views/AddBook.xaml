@@ -26,6 +26,16 @@
                 <Editor Text="{Binding State}" />
             </StackLayout>
 
+            <StackLayout>
+                <Label Text="State2" />
+                <Editor Text="{Binding State2}" />
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="State3" />
+                <Editor Text="{Binding State3}" />
+            </StackLayout>
+
             <Button Text="Save"
                     Command="{Binding SaveBookCommand}" />
 

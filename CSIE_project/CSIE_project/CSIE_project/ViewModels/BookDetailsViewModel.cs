@@ -14,7 +14,9 @@ namespace XamWebApiClient.ViewModels
         private string name;
         private int quantity;
         private double price;
-        private bool state;
+        private string state;
+        private string state2;
+        private string state3;
 
         private readonly IBookService _bookService;
 
@@ -35,7 +37,9 @@ namespace XamWebApiClient.ViewModels
                     Name = Name,
                     Quantity = Quantity,
                     Price = Price,
-                    State = State
+                    State = State,
+                    State2 = State2,
+                    State3 = State3
                 };
 
                 await _bookService.SaveBook(book);
@@ -59,6 +63,8 @@ namespace XamWebApiClient.ViewModels
                     Quantity = book.Quantity;
                     Price = book.Price;
                     State = book.State;
+                    State2 = book.State2;
+                    State3 = book.State3;
                 }
             }
             catch (Exception ex)
@@ -105,13 +111,33 @@ namespace XamWebApiClient.ViewModels
             }
         }
 
-        public bool State
+        public string State
         {
             get => state;
             set
             {
                 state = value;
                 OnPropertyChanged(nameof(State));
+            }
+        }
+
+        public string State2
+        {
+            get => state2;
+            set
+            {
+                state2 = value;
+                OnPropertyChanged(nameof(State2));
+            }
+        }
+
+        public string State3
+        {
+            get => state3;
+            set
+            {
+                state3 = value;
+                OnPropertyChanged(nameof(State3));
             }
         }
 

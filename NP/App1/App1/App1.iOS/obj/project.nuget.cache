@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Vt9wphHptu11Xe783XfDDoW1Fn9FIGxqfCXGquM2+/6eByxw14/FOX+BmzbzMYEX8OMMCgjhJiF1rq9aPZJWlw==",
+  "dgSpecHash": "Qa6AuSps/NGQNmwCmEMJCh1DxGyUSugjRqtJHwH+pnWyKVGgPfcKDQkjlo/16qeU2arXzklKrmh+g4haq6qznQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\eggwu\\Desktop\\NP\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\110NQU_CSIE_project\\NP\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\eggwu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
-    "C:\\Users\\eggwu\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
-    "C:\\Users\\eggwu\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
+    "C:\\Users\\USER\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

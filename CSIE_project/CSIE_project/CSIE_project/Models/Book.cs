@@ -19,7 +19,13 @@ namespace XamWebApiClient.Models
         [JsonPropertyName("price")]
         public double Price { get; set; }
 
-        [JsonPropertyName("state")]
-        public bool State { get; set; }
+        [JsonPropertyName("state1")]
+        public string State { get; set; }
+
+        [JsonPropertyName("state2")]
+        public string State2 { get; set; }
+
+        [JsonPropertyName("state3")]
+        public string State3 { get; set; }
     }
 }

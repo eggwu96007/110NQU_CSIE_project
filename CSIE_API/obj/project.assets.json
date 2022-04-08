@@ -1119,33 +1119,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eggwu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eggwu\\Desktop\\CSIE_API\\BookAPI.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\110NQU_CSIE_project\\CSIE_API\\BookAPI.csproj",
       "projectName": "BookAPI",
-      "projectPath": "C:\\Users\\eggwu\\Desktop\\CSIE_API\\BookAPI.csproj",
-      "packagesPath": "C:\\Users\\eggwu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eggwu\\Desktop\\CSIE_API\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\110NQU_CSIE_project\\CSIE_API\\BookAPI.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\110NQU_CSIE_project\\CSIE_API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\eggwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://packagesource": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -1190,7 +1184,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

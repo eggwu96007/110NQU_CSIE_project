@@ -2206,40 +2206,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eggwu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\CSIE_project.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\110NQU_CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\CSIE_project.iOS.csproj",
       "projectName": "CSIE_project.iOS",
-      "projectPath": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\CSIE_project.iOS.csproj",
-      "packagesPath": "C:\\Users\\eggwu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\110NQU_CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\CSIE_project.iOS.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\110NQU_CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\eggwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://packagesource": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj": {
-              "projectPath": "C:\\Users\\eggwu\\Desktop\\CSIE_ALL\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj"
+            "C:\\Users\\USER\\Desktop\\110NQU_CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\110NQU_CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj"
             }
           }
         }

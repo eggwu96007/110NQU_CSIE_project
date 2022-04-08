@@ -31,7 +31,7 @@ namespace XamWebApiClient.Services
         public async Task<Book> GetBook(int id)
         {
             var response = await _httpClient.GetAsync($"Books/{id}");
-           // var response = await _httpClient.GetAsync("Books/{5}");
+           
 
             response.EnsureSuccessStatusCode();
 

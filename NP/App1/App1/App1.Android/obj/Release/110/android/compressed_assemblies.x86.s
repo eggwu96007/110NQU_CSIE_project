@@ -43,7 +43,7 @@
 
 	/* 4: Java.Interop.dll */
 	/* uncompressed_file_size */
-	.long	163840
+	.long	164352
 	/* loaded */
 	.byte	0
 	/* data */
@@ -52,7 +52,7 @@
 
 	/* 5: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.long	2268672
+	.long	2269696
 	/* loaded */
 	.byte	0
 	/* data */

@@ -14,8 +14,7 @@ namespace XamWebApiClient
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(NewMainPage), typeof(NewMainPage));
-            Routing.RegisterRoute(nameof(Books), typeof(Books));
-            //Routing.RegisterRoute(nameof(AddBook), typeof(AddBook));
+            Routing.RegisterRoute(nameof(AddBook), typeof(AddBook));
             Routing.RegisterRoute(nameof(BookDetails), typeof(BookDetails));
             Routing.RegisterRoute(nameof(Data), typeof(Data));
 

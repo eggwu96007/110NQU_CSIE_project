@@ -17,6 +17,7 @@ namespace XamWebApiClient
             //add services
             services.AddHttpClient<IBookService, ApiBookService>(c => 
             {
+                //之後要改成server domain!!!
                 c.BaseAddress = new Uri("http://10.0.2.2:52236/api/");
                 c.DefaultRequestHeaders.Add("Accept", "application/json");
             });

@@ -2,6 +2,7 @@ package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "App1.Android.dll" comes first in this list. */
+		"App1.Android.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",
 		"Xamarin.Android.Support.Core.UI.dll",
@@ -41,7 +42,6 @@ public class MonoPackageManager_Resources {
 		"ZXing.Net.Mobile.Forms.dll",
 		"zxing.portable.dll",
 		"ZXingNetMobile.dll",
-		"App1.Android.dll",
 		"App1.dll",
 	};
 	public static String[] Dependencies = new String[]{
