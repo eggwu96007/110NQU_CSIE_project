@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CSIE_project.pick.xaml", "pick.xaml", typeof(global::CSIE_project.pick))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CSIE_project.Views.PickDataUpdate_x.xaml", "Views/PickDataUpdate_x.xaml", typeof(global::CSIE_project.Views.PickDataUpdate))]
 
-namespace CSIE_project {
+namespace CSIE_project.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("pick.xaml")]
-    public partial class pick : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\PickDataUpdate_x.xaml")]
+    public partial class PickDataUpdate : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(pick));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PickDataUpdate));
         }
     }
 }

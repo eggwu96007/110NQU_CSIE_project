@@ -6,7 +6,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using XamWebApiClient.Models;
-
+//delete problem
 namespace XamWebApiClient.Services
 {
     public class ApiBookService : IBookService
@@ -18,9 +18,19 @@ namespace XamWebApiClient.Services
             _httpClient = httpClient;
         }
 
-        public async Task<IEnumerable<Book>> GetBooks()
+        public async Task<IEnumerable<Book>> GetBooks() 
         {
             var response = await _httpClient.GetAsync("Books");
+
+            response.EnsureSuccessStatusCode();
+
+            var responseAsString = await response.Content.ReadAsStringAsync();
+            return JsonSerializer.Deserialize<IEnumerable<Book>>(responseAsString);
+        }
+
+        public async Task<IEnumerable<Book>> Pick_GetBooks()
+        {
+            var response = await _httpClient.GetAsync("Books/search/state1/false");
 
             response.EnsureSuccessStatusCode();
 
@@ -58,6 +68,14 @@ namespace XamWebApiClient.Services
         {
             var response = await _httpClient.PutAsync($"Books?id={book.Id}",
                 new StringContent(JsonSerializer.Serialize(book), Encoding.UTF8, "application/json"));
+
+            response.EnsureSuccessStatusCode();
+        }
+        //make Pick parameter change
+        public async Task DeletePickBook(Book book)
+        {
+            var response = await _httpClient.PutAsync($"Books?id={book.Id}",
+                 new StringContent(JsonSerializer.Serialize(book), Encoding.UTF8, "application/json"));
 
             response.EnsureSuccessStatusCode();
         }

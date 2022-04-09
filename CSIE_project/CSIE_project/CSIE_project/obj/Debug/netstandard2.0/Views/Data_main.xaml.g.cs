@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CSIE_project.Views.Data.xaml", "Views/Data.xaml", typeof(global::XamWebApiClient.Views.Data))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CSIE_project.Views.Data_main.xaml", "Views/Data_main.xaml", typeof(global::XamWebApiClient.Views.Data))]
 
 namespace XamWebApiClient.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Data.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Data_main.xaml")]
     public partial class Data : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

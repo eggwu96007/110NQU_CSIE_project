@@ -1,4 +1,5 @@
 ﻿using CSIE_project;
+using CSIE_project.Views;
 using System;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
@@ -24,10 +25,13 @@ namespace XamWebApiClient.ViewModels
 
             DeleteBookCommand = new Command<Book>(async b => await DeleteBook(b));
 
-            AddNewBookCommand = new Command(async () => await GoToAddbookView());
+            DeletePickCommand = new Command<Book>(async b => await DeletePickBook(b));
 
+            AddNewBookCommand = new Command(async ()=> await GoToAddbookView());
+            WatchCommand = new Command<Book>(async b => await GoToWatchView(b));
             //如果binding datacommand會跑來這裡接去dataview
             DataCommand = new Command(async () => await GoToDataView());
+            PickCommand = new Command(async () => await GoToPickView());
         }
 
         private async Task DeleteBook(Book b)
@@ -36,15 +40,34 @@ namespace XamWebApiClient.ViewModels
 
             PopulateBooks();
         }
+        
+        private async Task DeletePickBook(Book b)
+        {
+            await _bookService.DeletePickBook(b);
+
+            Pick_PopulateBooks();
+        }
 
         private async Task GoToAddbookView() 
             => await Shell.Current.GoToAsync(nameof(AddBook));
+        //******************************************
+        private async Task GoToWatchView(Book b)
+        {
+            if (b == null)
+                return;
 
-        //如果command改這裡就到其他地方
+            await Shell.Current.GoToAsync($"{nameof(PickUpdateView)}?{nameof(PickDataUpdate.BookId)}={b.Id}");
+
+        }
+            
+
         private async Task GoToDataView()
             => await Shell.Current.GoToAsync(nameof(Data));
 
-       
+        private async Task GoToPickView()
+            => await Shell.Current.GoToAsync(nameof(Pick));
+
+
 
         public async void PopulateBooks()
         {
@@ -63,6 +86,25 @@ namespace XamWebApiClient.ViewModels
                 Console.WriteLine(ex.Message);
             }
         }
+        //pick data
+        public async void Pick_PopulateBooks()
+        {
+            try
+            {
+                Books.Clear();
+
+                var books = await _bookService.Pick_GetBooks();
+                foreach (var book in books)
+                {
+                    Books.Add(book);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+
 
         async void OnBookSelected(Book book)
         {
@@ -98,7 +140,13 @@ namespace XamWebApiClient.ViewModels
 
         public ICommand DeleteBookCommand { get; }
 
+        public ICommand DeletePickCommand { get; }
+
         public ICommand DataCommand { get; }
+
+        public ICommand PickCommand { get; }
+
+        public ICommand WatchCommand { get; }
 
 
         public ICommand AddNewBookCommand { get; }

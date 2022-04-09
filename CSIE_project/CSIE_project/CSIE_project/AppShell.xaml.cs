@@ -1,5 +1,5 @@
 ﻿using CSIE_project;
-
+using CSIE_project.Views;
 using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
@@ -17,6 +17,8 @@ namespace XamWebApiClient
             Routing.RegisterRoute(nameof(AddBook), typeof(AddBook));
             Routing.RegisterRoute(nameof(BookDetails), typeof(BookDetails));
             Routing.RegisterRoute(nameof(Data), typeof(Data));
+            Routing.RegisterRoute(nameof(Pick), typeof(Pick));
+            Routing.RegisterRoute(nameof(PickUpdateView), typeof(PickUpdateView));
 
         }
     }

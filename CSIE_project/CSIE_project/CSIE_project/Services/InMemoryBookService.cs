@@ -27,6 +27,13 @@ namespace XamWebApiClient.Services
             _books.Remove(book);
             return Task.CompletedTask;
         }
+        
+        public Task DeletePickBook(Book book)
+        {
+
+            _books[_books.FindIndex(b => b.Id == book.Id)] = book;
+            return Task.CompletedTask;
+        }
 
         public Task<Book> GetBook(int id)
         {
@@ -37,6 +44,11 @@ namespace XamWebApiClient.Services
         public Task<IEnumerable<Book>> GetBooks()
         {
             return Task.FromResult( _books.AsEnumerable());
+        }
+
+        public Task<IEnumerable<Book>> Pick_GetBooks()
+        {
+            return Task.FromResult(_books.AsEnumerable());
         }
 
         public Task SaveBook(Book book)

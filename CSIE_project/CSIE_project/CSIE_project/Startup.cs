@@ -1,4 +1,5 @@
 ﻿
+using CSIE_project.Views;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using XamWebApiClient.Services;
@@ -27,6 +28,8 @@ namespace XamWebApiClient
             services.AddTransient<BooksViewModel>();
             services.AddTransient<AddBookViewModel>();
             services.AddTransient<BookDetailsViewModel>();
+            services.AddTransient<PickDataUpdate>();
+           
 
             serviceProvider = services.BuildServiceProvider();
         }
