@@ -25,19 +25,19 @@
 	.section	.rodata.map_aname.4,"aMS",%progbits,1
 	.type	.L.map_aname.4, %object
 .L.map_aname.4:
-	.asciz	"Xamarin.Essentials"
-	.size	.L.map_aname.4, 19
+	.asciz	"App1.Android"
+	.size	.L.map_aname.4, 13
 
 	.section	.rodata.map_aname.5,"aMS",%progbits,1
 	.type	.L.map_aname.5, %object
 .L.map_aname.5:
-	.asciz	"Mono.Android"
-	.size	.L.map_aname.5, 13
+	.asciz	"Xamarin.Essentials"
+	.size	.L.map_aname.5, 19
 
 	.section	.rodata.map_aname.6,"aMS",%progbits,1
 	.type	.L.map_aname.6, %object
 .L.map_aname.6:
-	.asciz	"App1.Android"
+	.asciz	"Mono.Android"
 	.size	.L.map_aname.6, 13
 
 	.section	.rodata.map_aname.7,"aMS",%progbits,1

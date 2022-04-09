@@ -10,8 +10,8 @@ namespace App1
         {
             InitializeComponent();
 
-            //MainPage = new QRScanner();
-            MainPage = new NavigationPage(new QRScanner());
+            MainPage = new QRScanner();
+           // MainPage = new NavigationPage(new QRScanner());
 
         }
 

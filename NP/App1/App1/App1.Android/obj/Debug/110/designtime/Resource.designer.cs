@@ -14,7 +14,7 @@ namespace App1.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.1.0.11")]
 	public partial class Resource
 	{
 		
@@ -25,11 +25,6 @@ namespace App1.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Intersoft.Crosslight.Android.Resource.Attribute.cornerRadius = global::App1.Droid.Resource.Attribute.cornerRadius;
-			global::Intersoft.Crosslight.Android.Resource.Attribute.strokeColor = global::App1.Droid.Resource.Attribute.strokeColor;
-			global::Intersoft.Crosslight.Android.Resource.Attribute.strokeWidth = global::App1.Droid.Resource.Attribute.strokeWidth;
-			global::Intersoft.Crosslight.Android.Resource.Id.image = global::App1.Droid.Resource.Id.image;
-			global::Intersoft.Crosslight.Android.Resource.Id.title = global::App1.Droid.Resource.Id.title;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::App1.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::App1.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::App1.Droid.Resource.Attribute.fontProviderAuthority;

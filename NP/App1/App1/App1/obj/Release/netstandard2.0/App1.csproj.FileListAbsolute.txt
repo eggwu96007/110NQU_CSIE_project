@@ -20,7 +20,6 @@ C:\Users\USER\Desktop\110NQU_CSIE_project\NP\App1\App1\App1\bin\Release\netstand
 C:\Users\USER\Desktop\110NQU_CSIE_project\NP\App1\App1\App1\bin\Release\netstandard2.0\ref\App1.dll
 C:\Users\USER\Desktop\110NQU_CSIE_project\NP\App1\App1\App1\bin\Release\netstandard2.0\App1.pdb
 C:\Users\USER\Desktop\110NQU_CSIE_project\NP\App1\App1\App1\obj\Release\netstandard2.0\App1.csproj.AssemblyReference.cache
-C:\Users\USER\Desktop\110NQU_CSIE_project\NP\App1\App1\App1\obj\Release\netstandard2.0\App1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\USER\Desktop\110NQU_CSIE_project\NP\App1\App1\App1\obj\Release\netstandard2.0\App.xaml.g.cs
 C:\Users\USER\Desktop\110NQU_CSIE_project\NP\App1\App1\App1\obj\Release\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\USER\Desktop\110NQU_CSIE_project\NP\App1\App1\App1\obj\Release\netstandard2.0\menu.xaml.g.cs

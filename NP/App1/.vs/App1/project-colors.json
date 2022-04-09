@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f70be90d-6329-40b8-9646-55347ef98f44": {
+      "ProjectGuid": "f70be90d-6329-40b8-9646-55347ef98f44",
+      "DisplayName": "App1",
+      "ColorIndex": 0
+    },
+    "ef3a31de-ef0e-47ed-b4df-56933c7818a8": {
+      "ProjectGuid": "ef3a31de-ef0e-47ed-b4df-56933c7818a8",
+      "DisplayName": "App1.Android",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

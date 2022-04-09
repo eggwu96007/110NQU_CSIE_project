@@ -14,8 +14,8 @@
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"/>
             <zxing:ZXingDefaultOverlay TopText="scan qrcode"/>
-            
 
+            
         </Grid>
     </ContentPage.Content>
 </ContentPage>

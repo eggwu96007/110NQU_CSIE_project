@@ -5,17 +5,19 @@
     
     <StackLayout HorizontalOptions="Center">
 
-        <Button Text=" 撿貨 "
+        <Button     
+                    Text="撿貨"
                     Font="Large"
                     BorderWidth="1" 
-                     Command="{Binding PickCommand}"
-                     />
+                     Command="{Binding QRcodeCommand}" />
 
         <Button     
                     Text="看後台資料"
                     Font="Large"
                     BorderWidth="1" 
                      Command="{Binding DataCommand}" />
+
+        
 
 
     </StackLayout>

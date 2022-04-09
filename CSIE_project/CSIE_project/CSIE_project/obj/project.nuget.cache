@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+Djq8iI5iHnGIxY7v1KrEASxS0ZCm3V8Mri/s4W35BwP5QUnfnFzHJochWp+IQsjl1O3x33/4iJr4iX3BbN3mw==",
+  "dgSpecHash": "6Yo4giCkOdimbOsmN8Y07YhemdLcphMS28EJJdi8kHMb3Uah7C6284wksSQ86xARzy7uuwC3FNG2AjZuGHnptA==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\Desktop\\110NQU_CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project\\CSIE_project.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,9 @@
     "C:\\Users\\USER\\.nuget\\packages\\system.text.json\\6.0.2\\system.text.json.6.0.2.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\USER\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],
   "logs": []
 }

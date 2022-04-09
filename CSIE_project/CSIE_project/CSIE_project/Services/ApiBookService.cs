@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSIE_project.Views;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
@@ -9,8 +10,10 @@ using XamWebApiClient.Models;
 //delete problem
 namespace XamWebApiClient.Services
 {
+    
     public class ApiBookService : IBookService
     {
+        string a = QRcode.qrcode;
         private readonly HttpClient _httpClient;
 
         public ApiBookService(HttpClient httpClient)
@@ -30,7 +33,7 @@ namespace XamWebApiClient.Services
 
         public async Task<IEnumerable<Book>> Pick_GetBooks()
         {
-            var response = await _httpClient.GetAsync("Books/search/state1/false");
+            var response = await _httpClient.GetAsync($"{a}");
 
             response.EnsureSuccessStatusCode();
 

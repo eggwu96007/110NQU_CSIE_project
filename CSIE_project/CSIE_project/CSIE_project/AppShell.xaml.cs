@@ -19,6 +19,7 @@ namespace XamWebApiClient
             Routing.RegisterRoute(nameof(Data), typeof(Data));
             Routing.RegisterRoute(nameof(Pick), typeof(Pick));
             Routing.RegisterRoute(nameof(PickUpdateView), typeof(PickUpdateView));
+            Routing.RegisterRoute(nameof(QRcode), typeof(QRcode));
 
         }
     }

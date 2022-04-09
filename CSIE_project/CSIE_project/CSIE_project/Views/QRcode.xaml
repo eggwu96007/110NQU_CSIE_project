@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CSIE_project.Views.QRcode"
+             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms">
+   
+    <ContentPage.Content>
+        
+        <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+            <zxing:ZXingScannerView
+                x:Name="scanView"
+                OnScanResult="scanView_OnScanResult"             
+                IsScanning="True"
+                WidthRequest="500"
+                HeightRequest="500"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+            <zxing:ZXingDefaultOverlay TopText="scan qrcode"/>
+        </Grid>
+        
+    </ContentPage.Content>
+    
+</ContentPage>

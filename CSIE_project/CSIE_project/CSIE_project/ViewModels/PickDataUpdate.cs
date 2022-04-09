@@ -60,7 +60,7 @@ namespace XamWebApiClient.ViewModels
                 if (bookId != null)
                 {
                     Name = book.Name;
-                    Quantity = book.Quantity;
+                    Quantity = (book.Quantity)-1;
                     Price = book.Price;
                     State = book.State;
                     State2 = book.State2;
@@ -106,7 +106,7 @@ namespace XamWebApiClient.ViewModels
             get => price;
             set
             {
-                price = 50000;
+                price = value;
                 OnPropertyChanged(nameof(Price));
             }
         }

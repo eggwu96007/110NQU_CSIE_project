@@ -8,35 +8,20 @@
 
             <StackLayout>
                 <Label Text="Name" />
-                <Entry Text="{Binding Name}" />
+                <Label Text="{Binding Name}" />
             </StackLayout>
 
             <StackLayout>
-                <Label Text="Quantity" />
-                <Editor Text="{Binding Quantity}" />
+                <Label Text="Remain Quantity" />
+                <Label Text="{Binding Quantity}" />
             </StackLayout>
 
             <StackLayout>
                 <Label Text="Price" />
-                <Editor Text="{Binding Price}" />
+                <Label Text="{Binding Price}" />
             </StackLayout>
 
-            <StackLayout>
-                <Label Text="State" />
-                <Editor Text="{Binding State}" />
-            </StackLayout>
-
-            <StackLayout>
-                <Label Text="State2" />
-                <Editor Text="{Binding State2}" />
-            </StackLayout>
-
-            <StackLayout>
-                <Label Text="State3" />
-                <Editor Text="{Binding State3}" />
-            </StackLayout>
-
-            <Button Text="Save"
+            <Button Text="PickCheck"
                     Command="{Binding SaveBookCommand}" />
 
         </StackLayout>

@@ -9,7 +9,6 @@
     ".NETStandard,Version=v2.0/": {
       "App1/1.0.0": {
         "dependencies": {
-          "Intersoft.Crosslight": "6.0.5000.975",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
@@ -18,14 +17,6 @@
         },
         "runtime": {
           "App1.dll": {}
-        }
-      },
-      "Intersoft.Crosslight/6.0.5000.975": {
-        "runtime": {
-          "lib/Intersoft.Crosslight.dll": {
-            "assemblyVersion": "6.0.5000.1",
-            "fileVersion": "6.0.5000.975"
-          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -104,13 +95,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "Intersoft.Crosslight/6.0.5000.975": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-icRCEz9Fl9HI7LyiUniMnIN8TeI1vRI4QPZQyGDx3sTyX5YxDGNHE2uLXG3ShsI1EOSY4x/Vxycs/QTOL3uqnQ==",
-      "path": "intersoft.crosslight/6.0.5000.975",
-      "hashPath": "intersoft.crosslight.6.0.5000.975.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

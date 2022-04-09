@@ -31,7 +31,8 @@ namespace XamWebApiClient.ViewModels
             WatchCommand = new Command<Book>(async b => await GoToWatchView(b));
             //如果binding datacommand會跑來這裡接去dataview
             DataCommand = new Command(async () => await GoToDataView());
-            PickCommand = new Command(async () => await GoToPickView());
+           // PickCommand = new Command(async () => await GoToPickView());
+            QRcodeCommand = new Command(async () => await GoToQRcodeView());
         }
 
         private async Task DeleteBook(Book b)
@@ -50,7 +51,7 @@ namespace XamWebApiClient.ViewModels
 
         private async Task GoToAddbookView() 
             => await Shell.Current.GoToAsync(nameof(AddBook));
-        //******************************************
+
         private async Task GoToWatchView(Book b)
         {
             if (b == null)
@@ -64,8 +65,11 @@ namespace XamWebApiClient.ViewModels
         private async Task GoToDataView()
             => await Shell.Current.GoToAsync(nameof(Data));
 
-        private async Task GoToPickView()
-            => await Shell.Current.GoToAsync(nameof(Pick));
+       /* private async Task GoToPickView()
+            => await Shell.Current.GoToAsync(nameof(Pick));*/
+
+        private async Task GoToQRcodeView()
+            => await Shell.Current.GoToAsync(nameof(QRcode));
 
 
 
@@ -147,6 +151,8 @@ namespace XamWebApiClient.ViewModels
         public ICommand PickCommand { get; }
 
         public ICommand WatchCommand { get; }
+
+        public ICommand QRcodeCommand { get; }
 
 
         public ICommand AddNewBookCommand { get; }

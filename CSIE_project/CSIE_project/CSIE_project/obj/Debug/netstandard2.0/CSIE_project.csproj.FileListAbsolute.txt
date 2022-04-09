@@ -40,3 +40,4 @@ C:\Users\USER\Desktop\110NQU_CSIE_project\CSIE_project\CSIE_project\CSIE_project
 C:\Users\USER\Desktop\110NQU_CSIE_project\CSIE_project\CSIE_project\CSIE_project\obj\Debug\netstandard2.0\Views\Data_main.xaml.g.cs
 C:\Users\USER\Desktop\110NQU_CSIE_project\CSIE_project\CSIE_project\CSIE_project\obj\Debug\netstandard2.0\Views\Pick.xaml.g.cs
 C:\Users\USER\Desktop\110NQU_CSIE_project\CSIE_project\CSIE_project\CSIE_project\obj\Debug\netstandard2.0\Views\PickUpdateView.xaml.g.cs
+C:\Users\USER\Desktop\110NQU_CSIE_project\CSIE_project\CSIE_project\CSIE_project\obj\Debug\netstandard2.0\Views\QRcode.xaml.g.cs
