@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSIE_project.Views;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
@@ -12,6 +13,8 @@ namespace XamWebApiClient.Models
 
         [JsonPropertyName("name")]
         public string Name { get; set; }
+
+        public string TextColor { get; set; } = Pick.color;
 
         [JsonPropertyName("quantity")]
         public int Quantity { get; set; }

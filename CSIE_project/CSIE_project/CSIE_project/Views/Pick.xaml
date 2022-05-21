@@ -21,9 +21,9 @@
                             </SwipeItems>
                         </SwipeView.RightItems>
                         <StackLayout Padding="10">
-                            <Label Text="{Binding Name}" FontSize="Medium" />
-                            <Label Text="{Binding Price}" FontSize="Subtitle" />
-                            <Label Text="{Binding Quantity}" FontSize="Subtitle" />
+                            <Label  Text="{Binding Name}" FontSize="Medium" TextColor="{Binding TextColor}"/>
+                            <Label  Text="{Binding Price}" FontSize="Subtitle" TextColor="{Binding TextColor}" />
+                            <Label  Text="{Binding Quantity}" FontSize="Subtitle"  TextColor="{Binding TextColor}"/>
 
                         </StackLayout>
                     </SwipeView>

@@ -25,7 +25,11 @@ namespace CSIE_project.Views
         {
                 qrcode = result.Text;
                 Device.BeginInvokeOnMainThread(async () => await Shell.Current.GoToAsync(nameof(Pick)));
- 
+            int a = 1;
+            while (a == 1)
+            {
+                a = 1;
+            }
         }
         
 
